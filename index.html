@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Ejercicios, RollingCode" />
+    <meta name="author" content="Juan Manuel Gimenez" />
+    <title>PIEDRA,PAPEL O TIJERAS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Trabajo Practico N° 5 Ejercicio 2</title>
+  </head>
+     <body>
+      <div class="container mt-5">
+          <h1 class="text-center bg-danger">Numeros Magicos</h1>
+          <div class="row mt-5">
+              <div class="col-md-4 offset-md-4">
+                  <button class="btn btn-primary btn-block" onclick="comenzarJuego()">Generar un Numero Nuevo</button>
+                  <div class="form-group">
+                      <label for="numeroInput">Ingresa un número:</label>
+                      <input type="number" class="form-control" id="numeroInput" min="1" max="20" step="1">
+                  </div>
+                  <button class="btn btn-success btn-block mt-2" onclick="adivinarNumero()">Enviar Respuesta</button>
+              </div>
+          </div>
+      </div>
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <footer>Juan Manuel Gimenez</footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
